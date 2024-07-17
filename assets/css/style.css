@@ -112,3 +112,200 @@ h4{
     margin-left: 130px;
     margin-top: 50px;
 }
+ /*********************************** RADOUANE *******************************/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+/**************************************
+****************NAVBAR*****************/
+
+
+header {
+    background-color: #0D0D0D;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.logo {
+    width: 10%;
+}
+
+.navLeft {
+    display: flex;
+    align-items:center;
+    color: white;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.navLeft h1 {
+    margin-left: 20px;
+}
+
+nav, ul, li, a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+nav a {
+    margin-left: 40px;
+}
+
+.navFlex {
+    display: flex;
+    align-items: center;
+}
+
+/**************************************
+************EFFETS HOOVER**************/
+
+.button:hover {
+    color: #80A6EF;
+}
+
+.active {
+    border-bottom: 2px solid #AF69FF;
+}
+
+/**************************************
+************CODE COULEUR**************/
+
+body {
+    background: url(../img/star-wars-jedi-trailer-section-bg-xl.jpg.adapt.1920w.jpg) center/cover;
+}
+
+.bg_gray {
+    background-color: #262626;
+    
+    height: 15px;
+}
+
+.starwars {
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 5px 2px 5px 2px rgb(22, 22, 22);
+    margin-top: 20px;
+}
+
+section .title {
+    margin-top: 10px;
+    color: #AF69FF;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+section h1:first-child {
+    margin-top: 5px;
+    color: #AAB9D9;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+
+.bloc1 {
+    background-color: rgba(116, 112, 112, 0.404);
+    border-radius: 30px;
+    padding: 32px;
+    margin-top: 50px;
+}
+
+.flex {
+    display: flex;
+}
+
+.bloc_text1 {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.bloc_text1 p {
+    margin-bottom: 20px;
+}
+
+.bloc_text1 p:first-child {
+    margin-top: 10px;
+}
+
+section span:nth-child(even) {
+    color: #AF69FF;
+}
+
+section span:nth-child(odd) {
+    color:#80A6EF;
+}
+
+article {
+    margin-top: 40px;
+}
+
+.games {
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(22, 22, 22);
+}
+
+.title2 {
+    margin-bottom: 20px;
+    color: #AF69FF;
+}
+
+
+
+
+article p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+article img {
+    width: 30%;
+}
+
+.img1 {
+    margin-left: 20px;
+}
+
+.emphase {
+    transform: translateX(-200px);
+}
+
+.emphase2 {
+    transform: translateX(-450px);
+}
+
+
+footer {
+    background-color: #0D0D0D;
+    margin-top: 80px;
+    color: white;
+}
+
+.flexFooter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flexCenter {
+    text-align: center;
+}
