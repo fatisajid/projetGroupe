@@ -112,6 +112,29 @@ h4{
     margin-left: 130px;
     margin-top: 50px;
 }
+
+
+footer {
+    background-color: #0D0D0D;
+    margin-top: 80px;
+    color: white;
+}
+
+.flexFooter p {
+    /* margin-right: 50px; */
+    margin-left: 7gi0px;
+}
+
+.flexFooter {
+    display: flex;
+    align-items: center;
+}
+
+.flexCenter {
+    text-align: center;
+}
+
+
  /*********************************** RADOUANE *******************************/
 
 
@@ -300,12 +323,17 @@ footer {
     color: white;
 }
 
+.flexFooter p {
+    margin-right: 100px;
+}
+
 .flexFooter {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
 }
 
 .flexCenter {
     text-align: center;
 }
+
+
