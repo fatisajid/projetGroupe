@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+/**************************************
+****************NAVBAR*****************/
+
+
+header {
+    background-color: #0D0D0D;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.logo {
+    width: 10%;
+}
+
+.navLeft {
+    display: flex;
+    align-items:center;
+    color: white;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.navLeft h1 {
+    margin-left: 20px;
+}
+
+nav, ul, li, a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+nav a {
+    margin-left: 40px;
+}
+
+.navFlex {
+    display: flex;
+    align-items: center;
+}
+
+/**************************************
+************EFFETS HOOVER**************/
+
+.button:hover {
+    color: #80A6EF;
+}
+
+.active {
+    border-bottom: 2px solid #AF69FF;
+}
+
+/**************************************
+************CODE COULEUR**************/
+
+body {
+    background: url(../img/star-wars-jedi-trailer-section-bg-xl.jpg.adapt.1920w.jpg) center/cover;
+}
+
+.bg_gray {
+    background-color: #262626;
+    height: 15px;
+}
+
+.zone1{
+    margin-left: 50px;
+    /* margin-top: 10px; */
+}
+
+.row{
+    display: flex;
+    padding: 80px;
+    
+}
+
+.zone2{
+    margin-left: 30px;
+    /* margin-top: 10px; */
+}
+
+p{
+    color: white;
+    width: 100%;
+}
+
+h4{
+    color: #AF69FF;
+}
+
+.zone3{
+    margin-left: 30px;
+    /* margin-top: 10px; */
+}
+
+.z1 h1{
+    color: white;
+    margin-left: 130px;
+    margin-top: 50px;
+}
